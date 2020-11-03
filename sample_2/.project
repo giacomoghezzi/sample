@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>sample_2</name>
-	<comment></comment>
+	<comment>Second sample project</comment>
 	<projects>
 	</projects>
 	<buildSpec>
 	</buildSpec>
 	<natures>
+		<nature>com.lzlabs.lzwbEclipsePlugin.builder.natures.LzWorkbenchPLINature</nature>
+		<nature>com.lzlabs.lzwbEclipsePlugin.builder.natures.LzWorkbenchJCLNature</nature>		
+		<nature>com.lzlabs.lzwbEclipsePlugin.builder.natures.LzWorkbenchNature</nature>
 	</natures>
 </projectDescription>
