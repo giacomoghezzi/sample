@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><file hh="scD0kKNwaEoexC2Ye3/CY5js4yKf25N6tUZKKDTnDXE=" pi="PROGBOTB" tpf="1" ur="file:/C:/Users/gghezzi/Desktop/SampleProjects/sampleCOBOL/source/PROGBOTB.cbl">
+<mpg>
+<cbp ee="3638" el="52" eo="3638" nm="PROGBOTB.cbl" se="3638" sl="1" so="0" tp="1">
+<chs>
+<cbp ee="2" el="17" eo="1377" nm="IDENTIFICATION" se="14" sl="1" so="7" tp="3">
+<chs>
+<cbp ee="81" el="3" eo="163" nm="PROGBOTB" se="8" sl="3" so="196" tp="18"/>
+</chs>
+</cbp>
+<cbp ee="2" el="24" eo="1944" nm="ENVIRONMENT" se="11" sl="18" so="1385" tp="3">
+<chs>
+<cbp ee="2" el="24" eo="1944" nm="CONFIGURATION" se="13" sl="20" so="1547" tp="4"/>
+</chs>
+</cbp>
+<cbp ee="2" el="39" eo="3105" nm="DATA" se="4" sl="25" so="1952" tp="3">
+<chs>
+<cbp ee="-1" el="35" eo="2781" nm="WORKING-STORAGE" se="15" sl="26" so="2033" tp="4">
+<chs>
+<cbp ee="14" el="27" eo="2107" nm="WORK-CONSTANTS" se="14" sl="27" so="2118" tp="15" vle="1">
+<chs>
+<cbp ee="13" el="28" eo="2188" nm="WC-PROGRAM-ID" se="13" sl="28" so="2203" tp="15" vle="3"/>
+<cbp ee="6" el="29" eo="2269" nm="FILLER" se="6" sl="29" so="2284" tp="15" vle="3"/>
+<cbp ee="18" el="31" eo="2431" nm="WC-PROGRAM-VERSION" se="18" sl="31" so="2446" tp="15" vle="3"/>
+<cbp ee="6" el="32" eo="2512" nm="FILLER" se="6" sl="32" so="2527" tp="15" vle="3"/>
+</chs>
+</cbp>
+<cbp ee="4" el="34" eo="2674" nm="PROG" se="4" sl="34" so="2684" tp="15" vle="1"/>
+</chs>
+</cbp>
+<cbp ee="2" el="39" eo="3105" nm="LINKAGE" se="7" sl="36" so="2789" tp="4">
+<chs>
+<cbp ee="7" el="37" eo="2863" nm="LA-TOP1" se="7" sl="37" so="2874" tp="15" vle="1"/>
+<cbp ee="7" el="38" eo="2944" nm="LA-BOT1" se="7" sl="38" so="2955" tp="15" vle="1"/>
+</chs>
+</cbp>
+</chs>
+</cbp>
+<cbp ee="-1" el="52" eo="3638" nm="PROCEDURE" se="9" sl="40" so="3113" tp="3"/>
+</chs>
+</cbp>
+</mpg>
+</file>

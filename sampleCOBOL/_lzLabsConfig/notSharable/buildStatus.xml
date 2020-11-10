@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildStatus lastCompileId="3" lastJarBuildId="0" lastLinkId="6"
+    projectName="sampleCOBOL" version="1">
+    <builtJars>
+        <builtSuccess/>
+        <builtFailure/>
+    </builtJars>
+    <compile hasProjectLevelCompilationError="false">
+        <program compileId="0"
+            name="/srv/LzWbServer/lzWBDistantWSRoot/20201106_174309_367/sampleCOBOL/source/PROGBOTB.cbl"
+            outFolder="_lzLabsConfig/notSharable/out"
+            producedSqlXml="false" status="Success"/>
+        <program compileId="1"
+            name="/srv/LzWbServer/lzWBDistantWSRoot/20201106_174309_367/sampleCOBOL/source/PROGMIDB.cbl"
+            outFolder="_lzLabsConfig/notSharable/out"
+            producedSqlXml="false" status="Success"/>
+        <program compileId="2"
+            name="/srv/LzWbServer/lzWBDistantWSRoot/20201106_174309_367/sampleCOBOL/source/PROGTOPB.cbl"
+            outFolder="_lzLabsConfig/notSharable/out"
+            producedSqlXml="false" status="Success"/>
+    </compile>
+    <link>
+        <module deleteDSNWhenDeployed="true" dsnName="X.Y.Z.PROGTOPB"
+            linkId="5" linkStatus="true" maxCompileId="2"
+            moduleOutputDir="_lzLabsConfig/toDeploy/modulesOut" name="progtopb"/>
+        <module deleteDSNWhenDeployed="true" dsnName="X.Y.Z.PROGMIDB"
+            linkId="3" linkStatus="true" maxCompileId="1"
+            moduleOutputDir="_lzLabsConfig/toDeploy/modulesOut" name="progmidb"/>
+        <module deleteDSNWhenDeployed="true" dsnName="X.Y.Z.PROGBOTB"
+            linkId="4" linkStatus="true" maxCompileId="0"
+            moduleOutputDir="_lzLabsConfig/toDeploy/modulesOut" name="progbotb"/>
+    </link>
+    <jarsDeploy/>
+    <sqlBind/>
+    <deploy>
+        <sdmServer id="1" name="SDM_192.168.106.3">
+            <modulesDeployedOnSDM>
+                <moduleDeployedOnSDM deploymentUpToDate="true"
+                    dsn="X.Y.Z.PROGTOPB" linkId="5" name="progtopb"/>
+                <moduleDeployedOnSDM deploymentUpToDate="true"
+                    dsn="X.Y.Z.PROGMIDB" linkId="3" name="progmidb"/>
+                <moduleDeployedOnSDM deploymentUpToDate="true"
+                    dsn="X.Y.Z.PROGBOTB" linkId="4" name="progbotb"/>
+            </modulesDeployedOnSDM>
+        </sdmServer>
+    </deploy>
+    <proxies/>
+</buildStatus>
